@@ -88,7 +88,7 @@ class Downloader(object):
                     time.sleep(randint(1, 5))
             except Exception as e:
                 print e
-                raise
+                continue
 
 
 if __name__ == '__main__':
